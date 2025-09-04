@@ -1,0 +1,24 @@
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.main-content {
+  flex: 1;
+  min-height: 80vh;
+}
+
+button,.btn{
+  background-color: black;
+  color: white;
+ 
+}
+
