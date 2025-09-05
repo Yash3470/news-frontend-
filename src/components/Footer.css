@@ -1,0 +1,39 @@
+.footer {
+  font-size: 1rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer-link {
+  color: #17a2b8; /* Bootstrap info color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #0dcaf0; /* brighter on hover */
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .footer {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+  .footer p {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    font-size: 0.8rem;
+    padding: 0.8rem;
+  }
+  .footer-link {
+    display: block; /* ✅ link goes below text on very small screens */
+    margin-top: 0.3rem;
+  }
+}
